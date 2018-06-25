@@ -42,11 +42,12 @@ def reformat_languages(languages)
   new_hash = {}
   type = ["interpreted", "compiled"]
 
-  #Add languages to a new list
+  #Add OO languages to a new list
   languages[:oo].each do |language, atrributes|
     programming_languages.push(language)
   end
 
+  #Add functional languages to the list
   languages[:functional].each do |language, atrributes|
     programming_languages.push(language)
   end
