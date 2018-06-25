@@ -31,7 +31,9 @@ languages = {
 }
 
 def reformat_languages(languages)
+  style = []
   new_hash = {}
+  type = ["interpreted", "compiled"]
 
   hash = {}
   hash[:my_key] = "my value"
