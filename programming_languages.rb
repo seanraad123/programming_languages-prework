@@ -63,7 +63,7 @@ def reformat_languages(languages)
   new_hash.merge!(style: style[0])
 
 
-  print new_hash
+  print programming_languages
 
 end
 
