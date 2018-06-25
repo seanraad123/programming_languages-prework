@@ -48,8 +48,10 @@ def reformat_languages(languages)
   end
 
   #Add styles to a new list
-  style.push(languages.keys)
-
+  lang_keys = languages.keys
+  lang_keys.each do |x|
+    style.push(x)
+    
   #print programming_languages
 
   new_hash[programming_languages[0]] = {type: type[0]}
