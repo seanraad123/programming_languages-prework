@@ -66,6 +66,10 @@ def reformat_languages(languages)
   new_hash[programming_languages[1]] = {type: type[0]}
   new_hash[:javascript].store :style,style
 
+  #Add python to the new hash
+  new_hash[programming_languages[2]] = {type: type[0]}
+  new_hash[:javascript].store :style,style
+
   print new_hash
   #print programming_languages
 
