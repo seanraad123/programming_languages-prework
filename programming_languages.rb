@@ -63,8 +63,8 @@ def reformat_languages(languages)
   new_hash.merge!(style: style[0])
 
   #Add ruby to the new hash
-  new_hash[programming_languages[0]] = {type: type[0]}
-  new_hash.merge!(style: style[0])
+  new_hash[programming_languages[1]] = {type: type[0]}
+  new_hash.merge!(style: style[0],style[1])
 
 
   print programming_languages
