@@ -31,6 +31,8 @@ languages = {
 }
 
 def reformat_languages(languages)
+  new_hash = {}
+
   hash = {}
   hash[:my_key] = "my value"
 
@@ -42,8 +44,6 @@ def reformat_languages(languages)
     print language
   end
 
-
-  new_hash = {}
 
 end
 
