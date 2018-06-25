@@ -51,11 +51,13 @@ def reformat_languages(languages)
   lang_keys = languages.keys
   lang_keys.each do |x|
     style.push(x)
-    
+  end
+
   #print programming_languages
 
   new_hash[programming_languages[0]] = {type: type[0]}
   new_hash[:ruby] = {style: style[0]}
+  new_hash.merge!(style: style[0])
   print new_hash
 
 end
