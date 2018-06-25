@@ -47,8 +47,6 @@ def reformat_languages(languages)
     programming_languages.push(language)
   end
   print programming_languages
-
-
 end
 
 reformat_languages(languages)
