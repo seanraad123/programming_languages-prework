@@ -50,6 +50,8 @@ def reformat_languages(languages)
   #Add styles to a new list
   style.push(languages.keys)
 
+  print programming_languages
+
 end
 
 reformat_languages(languages)
