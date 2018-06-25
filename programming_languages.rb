@@ -47,6 +47,10 @@ def reformat_languages(languages)
     programming_languages.push(language)
   end
 
+  languages[:functional].each do |language, atrributes|
+    programming_languages.push(language)
+  end
+
   #Add styles to a new list
   lang_keys = languages.keys
   lang_keys.each do |x|
@@ -57,6 +61,8 @@ def reformat_languages(languages)
 
   new_hash[programming_languages[0]] = {type: type[0]}
   new_hash.merge!(style: style[0])
+
+
   print new_hash
 
 end
