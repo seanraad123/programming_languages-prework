@@ -75,8 +75,8 @@ def reformat_languages(languages)
   new_hash[:java].store :style,[style[0]]
 
   #Add clojure to the new hash
-  new_hash[programming_languages[4]] = {type: type[0]}
-  new_hash[:clojure].store :style,[style[0]]
+  new_hash[programming_languages[4]] = {type: type[1]}
+  new_hash[:clojure].store :style,[style[1]]
 
   print new_hash
   #print programming_languages
