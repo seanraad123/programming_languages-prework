@@ -78,6 +78,14 @@ def reformat_languages(languages)
   new_hash[programming_languages[4]] = {type: type[1]}
   new_hash[:clojure].store :style,[style[1]]
 
+  #Add erlang to the new hash
+  new_hash[programming_languages[5]] = {type: type[1]}
+  new_hash[:erlang].store :style,[style[1]]
+
+  #Add scala to the new hash
+  new_hash[programming_languages[5]] = {type: type[1]}
+  new_hash[:scala].store :style,[style[1]]
+
   print new_hash
   #print programming_languages
 
