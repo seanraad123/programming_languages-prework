@@ -54,6 +54,7 @@ def reformat_languages(languages)
 
   #Add styles to a new list
   lang_keys = languages.keys
+  print lang_keys
   lang_keys.each do |x|
     style.push(x)
   end
