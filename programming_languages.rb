@@ -87,7 +87,7 @@ def reformat_languages(languages)
   new_hash[:scala].store :style,[style[1]]
 
   return new_hash
-  
+
 end
 
 reformat_languages(languages)
