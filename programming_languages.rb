@@ -26,7 +26,7 @@ languages = {
     :javascript => {
       :type => "interpreted"
     }
- 
+
   }
 }
 
@@ -42,3 +42,5 @@ def reformat_languages(languages)
   new_hash = {}
 
 end
+
+reformat_languages(languages)
