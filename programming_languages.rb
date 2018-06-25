@@ -58,7 +58,6 @@ def reformat_languages(languages)
     style.push(x)
   end
 
-  #print programming_languages
 
   new_hash[programming_languages[0]] = {type: type[0]}
   new_hash.merge!(style: style[0])
