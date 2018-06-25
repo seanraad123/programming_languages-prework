@@ -26,7 +26,7 @@ languages = {
     :javascript => {
       :type => "interpreted"
     }
- 
+
   }
 }
 
@@ -37,8 +37,8 @@ def reformat_languages(languages)
 
   #hash = {}
   #hash[:my_key] = {second_level_key: "second level value"}
-  
-  languages.each[:oo] do |x|
+
+  languages[:oo].each do |x|
     print x
   end
 
