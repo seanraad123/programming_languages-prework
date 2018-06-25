@@ -52,6 +52,8 @@ def reformat_languages(languages)
 
   print programming_languages
 
+  new_hash[programming_languages[0]] = {:type: type[0]}
+
 end
 
 reformat_languages(languages)
