@@ -47,7 +47,7 @@ def reformat_languages(languages)
     programming_languages.push(language)
   end
 
-  print languages.keys
+   style.push(languages.keys)
 end
 
 reformat_languages(languages)
