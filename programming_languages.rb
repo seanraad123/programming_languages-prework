@@ -38,8 +38,8 @@ def reformat_languages(languages)
   hash = {}
   hash[:my_key] = {second_level_key: "second level value"}
 
-  languages[:oo].each do |x|
-    print x[1]
+  languages[:oo].each do |language, atrributes|
+    print x[]
   end
 
 
