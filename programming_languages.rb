@@ -63,8 +63,8 @@ def reformat_languages(languages)
   new_hash.merge!(style: [style[0]])
 
   #Add javascript to the new hash
-  new_hash[programming_languages[1]] = {type: type[0]}
-  new_hash.merge!(style: style)
+  #new_hash[programming_languages[1]] = {type: type[0]}
+  #new_hash.merge!(style: style)
 
   print new_hash
   #print programming_languages
