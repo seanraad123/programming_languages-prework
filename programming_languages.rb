@@ -32,6 +32,7 @@ languages = {
 
 def reformat_languages(languages)
   style = []
+  language = []
   new_hash = {}
   type = ["interpreted", "compiled"]
 
@@ -43,7 +44,7 @@ def reformat_languages(languages)
   hash[:my_key] = {second_level_key: "second level value"}
 
   languages[:oo].each do |language, atrributes|
-    print language
+    style.push(language)
   end
 
 
