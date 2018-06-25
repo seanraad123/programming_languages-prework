@@ -45,8 +45,9 @@ def reformat_languages(languages)
 
   languages[:oo].each do |language, atrributes|
     programming_languages.push(language)
-    print atrributes
   end
+
+  print languages.keys
 end
 
 reformat_languages(languages)
