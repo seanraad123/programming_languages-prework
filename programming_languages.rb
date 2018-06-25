@@ -87,8 +87,7 @@ def reformat_languages(languages)
   new_hash[:scala].store :style,[style[1]]
 
   return new_hash
-  #print programming_languages
-
+  
 end
 
 reformat_languages(languages)
